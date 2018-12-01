@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/leeco/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/leeco/msm8996-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/leeco/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/leeco/msm8996-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
