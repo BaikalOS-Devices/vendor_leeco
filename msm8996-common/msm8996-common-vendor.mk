@@ -28,10 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/leeco/msm8996-common/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/leeco/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
-    vendor/leeco/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/leeco/msm8996-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/leeco/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
-    vendor/leeco/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/leeco/msm8996-common/proprietary/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
@@ -664,9 +662,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     UEIQuicksetSDKLeTV \
     WfdService \
-    com.qualcomm.location \
     CneApp \
     IWlanService \
+    LetvRemoteControl_preinstall \
     TimeService \
     QtiTelephonyService \
     uceShimService \
